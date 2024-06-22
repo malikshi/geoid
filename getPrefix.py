@@ -75,17 +75,21 @@ def filter_prefixes():
     unique_networks = set()
 
     for filename in [cbuijs_file, bgp_file]:
-        with open(filename, "r") as f:
-            for line in f:
-                try:
-                    prefix = line.split()[0]
-                    if ":" in prefix:
-                        network = ipaddress.ip_network(line.strip(), strict=False) 
-                    else:
-                        network = ipaddress.ip_network(line.strip())
-                    unique_networks.add(network)
-                except ValueError:
-                    print(f"Invalid IP address/prefix in {filename}: {line}")
+      with open(filename, "r") as f:
+          for line in f:
+              try:
+                  prefix = line.split()[0]  # Extract prefix from BGP list if needed
+                  if filename == bgp_file:
+                      # Remove the trailing ASN from BGP.Indonesia.list line
+                      prefix = prefix.split()[0]
+                  # Handle both IPv4 and IPv6 prefixes
+                  if ":" in prefix:
+                      network = ipaddress.ip_network(prefix.strip(), strict=False)  # Allow mixed notation for IPv6
+                  else:
+                      network = ipaddress.ip_network(prefix.strip())
+                  unique_networks.add(network)
+              except ValueError:
+                  print(f"Invalid IP address/prefix in {filename}: {line}")
 
     # Custom Sorting Function (IPv4 first, then IPv6)
     def sort_key(network):
