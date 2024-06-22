@@ -78,7 +78,8 @@ def filter_prefixes():
         with open(filename, "r") as f:
             for line in f:
                 try:
-                    if ":" in line:
+                    prefix = line.split()[0]
+                    if ":" in prefix:
                         network = ipaddress.ip_network(line.strip(), strict=False) 
                     else:
                         network = ipaddress.ip_network(line.strip())
