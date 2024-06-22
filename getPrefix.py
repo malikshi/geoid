@@ -1,14 +1,16 @@
 import requests
 import subprocess
 import os
+import ipaddress
 
-sourcescbuijs = "https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-indonesia.list"
 
-r = requests.get(sourcescbuijs)
-with open("IP.Indonesia.list", "wb") as IndonesiaIPs:
-  IndonesiaIPs.write(r.content)
+def get_prefix_cbuijs():
+  sourcescbuijs = "https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-indonesia.list"
+  r = requests.get(sourcescbuijs)
+  with open("cbuijs.Indonesia.list", "wb") as IndonesiaIPs:
+    IndonesiaIPs.write(r.content)
 
-def get_prefixes():
+def get_prefixes_bgp():
     asn_file = "ASN.Indonesia.list"
     output_file = "BGP.Indonesia.list"
     table_url = "https://bgp.tools/table.txt"
@@ -34,6 +36,9 @@ def get_prefixes():
             f.write(response.content)
 
         print(f"Download successful. Saved as {table_file}")
+
+        # Remove old table after new download succeed
+        os.remove(backup_table_file)
 
     except requests.exceptions.RequestException as e:
         print(f"Download failed: {e}")
@@ -62,6 +67,35 @@ def get_prefixes():
 
     subprocess.run(["sort", "-u", "-o", output_file, output_file])
 
+def filter_prefixes():
+    cbuijs_file = "cbuijs.Indonesia.list"
+    bgp_file = "BGP.Indonesia.list"
+    output_file = "IP.Indonesia.list"
+
+    unique_networks = set()
+
+    for filename in [cbuijs_file, bgp_file]:
+        with open(filename, "r") as f:
+            for line in f:
+                try:
+                    if ":" in line:
+                        network = ipaddress.ip_network(line.strip(), strict=False) 
+                    else:
+                        network = ipaddress.ip_network(line.strip())
+                    unique_networks.add(network)
+                except ValueError:
+                    print(f"Invalid IP address/prefix in {filename}: {line}")
+
+    # Custom Sorting Function (IPv4 first, then IPv6)
+    def sort_key(network):
+        return (network.version == 6, network)  # Sort by version (IPv4=4, IPv6=6), then by network address
+
+    # Write unique prefixes to IP.Indonesia.list
+    with open(output_file, "w") as f:
+        for network in sorted(unique_networks, key=sort_key):
+            f.write(f"{network}\n")
 
 if __name__ == "__main__":
-    get_prefixes()
+    get_prefix_cbuijs()
+    get_prefixes_bgp()
+    filter_prefixes()
