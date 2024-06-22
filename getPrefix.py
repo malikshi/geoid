@@ -12,8 +12,8 @@ def get_prefixes():
     asn_file = "ASN.Indonesia.list"
     output_file = "BGP.Indonesia.list"
     table_url = "https://bgp.tools/table.txt"
-    table_file = "table.txt"
-    backup_table_file = "table-exist.txt"
+    table_file = "table.list"
+    backup_table_file = "table-exist.list"
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
@@ -34,9 +34,6 @@ def get_prefixes():
             f.write(response.content)
 
         print(f"Download successful. Saved as {table_file}")
-        
-        # Remove old table after new download succeed
-        os.remove(backup_table_file)
 
     except requests.exceptions.RequestException as e:
         print(f"Download failed: {e}")
@@ -56,15 +53,15 @@ def get_prefixes():
     with open(output_file, "w") as outfile:
         for asn in asns:
             result = subprocess.run(
-                ["grep", "-w", asn, table_file],  
-                capture_output=True,  
+                ["grep", "-w", asn, table_file],
+                capture_output=True,
                 text=True
             )
             outfile.write(result.stdout)
             print("ASN {} processed".format(asn))
-            
+
     subprocess.run(["sort", "-u", "-o", output_file, output_file])
-            
+
 
 if __name__ == "__main__":
     get_prefixes()
