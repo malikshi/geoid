@@ -23,28 +23,28 @@ IP-ASN,58396 // PT. DEWATA TELEMATIKA
 IP-ASN,38757 // PT INDONESIA COMNETS PLUS
 IP-ASN,17451 // BIZNET NETWORKS
 IP-ASN,138128 // PT Solnet Indonesia
-IP-ASN,133840 // PT Jala Lintas Media
 IP-ASN,7632 // Linknet-Exchange ASN
 IP-ASN,141137 // PT Media Cepat Indonesia
+IP-ASN,38496 // PT Cyber Network Indonesia
+IP-ASN,133840 // PT Jala Lintas Media
 IP-ASN,58495 // PT Parsaoran Global Datatrans
 IP-ASN,137367 // PT iForte Solusi Infotek
 IP-ASN,17995 // PT iForte Global Internet
 IP-ASN,24203 // PT XL Axiata
 IP-ASN,138089 // PT.Global Media Data Prima
-IP-ASN,38496 // PT Cyber Network Indonesia
 IP-ASN,24534 // PT. Transhybrid Communication
 IP-ASN,45305 // Lintas Data Prima, PT
 IP-ASN,45147 // PT. NAP Info Lintas Nusa
-IP-ASN,63516 // Transhybrid Internet Xchange
 IP-ASN,38753 // Solusindo Bintang Pratama, PT
 IP-ASN,136838 // PT BIT TEKNOLOGI NUSANTARA
-IP-ASN,9905 // Linknet ASN
+IP-ASN,63516 // Transhybrid Internet Xchange
 IP-ASN,24198 // PT. Datakom Padma Jaya (DatakomNAP)
+IP-ASN,9905 // Linknet ASN
 IP-ASN,23671 // PT. Sarana InsanMuda Selaras
-IP-ASN,55666 // PT Media Sarana Data
 IP-ASN,137366 // PT iForte Solusi Infotek
-IP-ASN,9341 // PT INDONESIA COMNETS PLUS
+IP-ASN,55666 // PT Media Sarana Data
 IP-ASN,24538 // DIGITAL SATELLITE INDONESIA PT.
+IP-ASN,9341 // PT INDONESIA COMNETS PLUS
 IP-ASN,141898 // PT Milenial Inti Telekomunikasi
 IP-ASN,9340 // INDO Internet, PT
 IP-ASN,59139 // PT Wifiku Indonesia
@@ -53,35 +53,34 @@ IP-ASN,38154 // PT. Pasifik Satelit Nusantara
 IP-ASN,141626 // PT Sandya Sistem Indonesia
 IP-ASN,64302 // IDREN - Indonesia Research and Education Network
 IP-ASN,23951 // PT JEMBATAN CITRA NUSANTARA
-IP-ASN,150279 // PT Lintas Network Solusi
 IP-ASN,59276 // PT Jaringan Multimedia Indonesia
-IP-ASN,139938 // PT Bintang Global Abadi
 IP-ASN,137331 // PT Cloud Teknologi Nusantara
-IP-ASN,45287 // Varnion Technology Semesta, PT
+IP-ASN,150279 // PT Lintas Network Solusi
+IP-ASN,139938 // PT Bintang Global Abadi
 IP-ASN,139428 // PT.LEXXA DATA INDONUSA
+IP-ASN,45287 // Varnion Technology Semesta, PT
 IP-ASN,58463 // PT.PGAS TELEKOMUNIKASI NUSANTARA
 IP-ASN,23948 // Global Inti Corporatama PT.
 IP-ASN,17996 // PT Global Prima Utama
 IP-ASN,147168 // PT NTT Indonesia
+IP-ASN,153087 // PT Telemedia Prima Nusantara
 IP-ASN,139382 // PT Multi Teknologi Telematika
 IP-ASN,138866 // PT Mitra Media Data
 IP-ASN,64313 // PT. NAP Info Lintas Nusa
 IP-ASN,149675 // PT Garuda Lintas Cakrawala
-IP-ASN,139967 // PT. Yasmin Amanah Media
 IP-ASN,58376 // PT Angkasa Komunikasi Global Utama
-IP-ASN,153087 // PT Telemedia Prima Nusantara
+IP-ASN,139967 // PT. Yasmin Amanah Media
 IP-ASN,131744 // PT. MEDIA NUSANTARA GLOBAL DATA
 IP-ASN,138886 // PT Data Buana Nusantara
 IP-ASN,138881 // PT INDONESIA TRANS NETWORK
-IP-ASN,38165 // PT. AMBHARA DUTA SHANTI
 IP-ASN,55701 // PT. Usaha Adisanggoro
+IP-ASN,50104 // PT Pedjoeang Digital Networks
+IP-ASN,38165 // PT. AMBHARA DUTA SHANTI
 IP-ASN,18351 // PT Media Akses Global Indo, Internet Provider Jakarta
-IP-ASN,139951 // PT Alfatih Indo Teknologi
 IP-ASN,38320 // PT Maxindo Mitra Solusi
 IP-ASN,24523 // Orion Cyber Internet
 IP-ASN,133817 // PT Inti Data Telematika
 IP-ASN,38524 // Laxo Global Akses, PT
-IP-ASN,24530 // PT. Power Telecom Indonesia
 IP-ASN,24521 // PT. DATA Utama Dinamika
 IP-ASN,132637 // PT BINA INFORMATIKA SOLUSI
 IP-ASN,131775 // PT. Jupiter Jala Arta
@@ -89,14 +88,15 @@ IP-ASN,131706 // PT SELARAS CITRA TERABIT
 IP-ASN,10217 // PT. NTT Indonesia
 IP-ASN,150249 // PT Atharva Telematika Persada
 IP-ASN,136841 // PT MITRA TELEMEDIA MANUNGGAL
-IP-ASN,133815 // PT Primacom Interbuana
 IP-ASN,132647 // Pengelola Nama Domain Internet Indonesia
 IP-ASN,132641 // PT Netciti Persada
+IP-ASN,24530 // PT. Power Telecom Indonesia
 IP-ASN,17727 // PT. NAP Info Lintas Nusa
+IP-ASN,135636 // PT. RACKH LINTAS ASIA
+IP-ASN,133815 // PT Primacom Interbuana
 IP-ASN,58485 // WIFIAN ID
 IP-ASN,56246 // PT Sumber Data Indonesia
 IP-ASN,38511 // PT Remala Abadi
-IP-ASN,135636 // PT. RACKH LINTAS ASIA
 IP-ASN,56239 // PT Graha Anugrah Sejahtera
 IP-ASN,138854 // PT INTER MEDIALINK SOLUSI
 IP-ASN,58821 // PT Lintas Jaringan Nusantara
@@ -115,10 +115,8 @@ IP-ASN,141607 // PT Gayatri Lintas Nusantara
 IP-ASN,141126 // PT Cubiespot Pilar Data Nusantara
 IP-ASN,140469 // PT Wahyu Adidaya Network
 IP-ASN,139981 // PT. Menaksopal Link Nusantara
-IP-ASN,136131 // PT Tiga Satu Cyber Network
 IP-ASN,63859 // PT. Eka Mas Republik
 IP-ASN,59278 // PT Jaringan VNT Indonesia
-IP-ASN,50104 // PT Pedjoeang Digital Networks
 IP-ASN,46026 // BATAM BINTAN TELEKOMUNIKASI, PT
 IP-ASN,24207 // PT NettoCyber Indonesia
 IP-ASN,23949 // PT Comtronics Systems
@@ -128,16 +126,17 @@ IP-ASN,140423 // PT Chandra Media Nusantara
 IP-ASN,139972 // PT. Putra Lebak Banten
 IP-ASN,139952 // PT Trisari Data Indonusa
 IP-ASN,138077 // PT Abhinawa Sumberdaya Asia
-IP-ASN,137352 // PT. Cloudata Indonesia
+IP-ASN,136131 // PT Tiga Satu Cyber Network
+IP-ASN,131745 // PT. Cybertechtonic Pratama
 IP-ASN,45302 // PT DES Teknologi Informasi
 IP-ASN,38150 // PT. TIME EXCELINDO
 IP-ASN,151006 // PT Nesta Indo Media
 IP-ASN,149409 // PT Core Digital Network
 IP-ASN,142394 // PT Cahaya Solusindo Internusa
-IP-ASN,141985 // PT Argon Internet Amariqindo
 IP-ASN,141978 // PT Akses Bersama Sedaya
+IP-ASN,140421 // PT APLIKA DATA NUSANTARA
 IP-ASN,140384 // PT BITNIAGA CIPTA GEMILANG
-IP-ASN,138876 // CV. Saranaindo
+IP-ASN,137352 // PT. Cloudata Indonesia
 IP-ASN,136065 // PT SOLUSI TRIMEGAH PERSADA
 IP-ASN,136052 // PT Cloud Hosting Indonesia
 IP-ASN,58820 // APIK Media Networks
@@ -150,18 +149,17 @@ IP-ASN,38778 // PT. Dutakom Wibawa Putra
 IP-ASN,17884 // PT. Uninet Media Sakti (ISP)
 IP-ASN,17670 // PT. MNC Kabel Mediacom
 IP-ASN,147131 // PT Global Sarana Elektronika
+IP-ASN,141985 // PT Argon Internet Amariqindo
 IP-ASN,141968 // PT Industri Kreatif Digital
-IP-ASN,141067 // PT Trisula Media Data
 IP-ASN,141056 // PT IOSYS Media Data
-IP-ASN,140421 // PT APLIKA DATA NUSANTARA
 IP-ASN,139955 // PT DATA PRIMA SOLUSINDO
 IP-ASN,139449 // PT Lintas Data Multimedia
+IP-ASN,138876 // CV. Saranaindo
 IP-ASN,137351 // PT. Djaya Sampoerna Net
 IP-ASN,136093 // PT Mitra Lintas Multimedia
 IP-ASN,134640 // PT DCI Indonesia
 IP-ASN,133800 // PT Biznet Gio Nusantara
 IP-ASN,131746 // PT. Medianusa Permana
-IP-ASN,131745 // PT. Cybertechtonic Pratama
 IP-ASN,9657 // Melsa-i-net AS
 IP-ASN,63862 // PT Pascal Solusi Nusantara
 IP-ASN,58487 // CV. Rumahweb Indonesia
@@ -177,13 +175,14 @@ IP-ASN,23954 // PT. Bank Mandiri (Persero) Tbk.
 IP-ASN,17885 // PT XL Axiata Tbk
 IP-ASN,149707 // PT Akses Data Internusa
 IP-ASN,142370 // PT Master Star Network
-IP-ASN,142360 // PT Internet Mulia Untuk Negeri
 IP-ASN,142347 // PT Sarana Media Cemerlang
 IP-ASN,141934 // PT Sanders Bersaudara Media
 IP-ASN,141613 // PT Jaringan Internet Nusantara
 IP-ASN,141057 // PT Fokus Inovasi Faradisa Abadi
 IP-ASN,140470 // PT Andalan Dinamika Informatika
+IP-ASN,140457 // PT Ikhlas Cipta Teknologi
 IP-ASN,140429 // PT. MEDIA DISTRIBUSI PRIMA
+IP-ASN,139378 // PT. NEX Solusi Teknologi
 IP-ASN,138884 // PT Centronet Data Indonesia
 IP-ASN,138823 // PT. Trimitra Usaha Sejahtera
 IP-ASN,138096 // PT INFORMASI NUSANTARA TEKNOLOGI
@@ -192,19 +191,23 @@ IP-ASN,131769 // PT Mayatama Solusindo
 IP-ASN,131711 // PT Global Teknologi Teraindo
 IP-ASN,9326 // PT Centrin Utama
 IP-ASN,64300 // PT JARINGANKU SARANA NUSANTARA
+IP-ASN,63878 // PT Victory Network Indonesia
 IP-ASN,63490 // PT Artha Media Lintas Nusa
 IP-ASN,59273 // PT KOMUNIKASI LINTAS NUSA
 IP-ASN,58819 // PT Arsenet Global Solusi
 IP-ASN,58477 // Argon Data Communication
 IP-ASN,45718 // PT Juragan Online Solusi
 IP-ASN,45295 // PT. Cipta Informatika Cemerlang
-IP-ASN,24213 // PT. Arsen Kusuma Indonesia
 IP-ASN,151000 // PT Awan Data Indonesia
 IP-ASN,149359 // PT Persada Data Multimedia
 IP-ASN,147155 // PT Gateway Internet Indonesia
+IP-ASN,147089 // PT Intergate Cahaya Media
+IP-ASN,142375 // PT Hayat Teknologi Informatika
 IP-ASN,142373 // PT Multi Network Indonesia
+IP-ASN,142360 // PT Internet Mulia Untuk Negeri
 IP-ASN,141929 // PT Daniswara Citra Informatika
-IP-ASN,140457 // PT Ikhlas Cipta Teknologi
+IP-ASN,141123 // PT Puskomedia Indonesia Kreatif
+IP-ASN,141067 // PT Trisula Media Data
 IP-ASN,140407 // KitaNet
 IP-ASN,140401 // PT Proxi Jaringan Nusantara
 IP-ASN,139425 // PT RESTU PANCA ALAM
@@ -214,10 +217,8 @@ IP-ASN,138119 // PT Integra Kreasitama Solusindo
 IP-ASN,136119 // PT Bali Towerindo Sentra, Tbk
 IP-ASN,135477 // PT. Java Digital Nusantara
 IP-ASN,132653 // PT Transdata Sejahtera
-IP-ASN,131758 // PT. Bali Ning
 IP-ASN,131735 // PT Telemedia Network Cakrawala
 IP-ASN,9794 // PT. Core Mediatech (D-NET)
-IP-ASN,63878 // PT Victory Network Indonesia
 IP-ASN,59282 // PT Giga Patra Multimedia
 IP-ASN,58815 // Telekomunikasi Indonesia International PT
 IP-ASN,55670 // PT. Universal Broadband
@@ -226,6 +227,7 @@ IP-ASN,46023 // PT Quantum Tera Network
 IP-ASN,45317 // Jaringan Lintas Utara, PT
 IP-ASN,38768 // PT. Platinum Network Indonesia
 IP-ASN,24527 // Internet Service Provider
+IP-ASN,24213 // PT. Arsen Kusuma Indonesia
 IP-ASN,24211 // PT. Detik Ini JUga
 IP-ASN,24195 // PT. Dhecyber Flow Indonesia
 IP-ASN,23953 // PT ARTHA TELEKOMINDO
@@ -244,23 +246,21 @@ IP-ASN,149704 // PT Panglima Kamayo Media
 IP-ASN,149684 // PT. Kreatif Pasific
 IP-ASN,149662 // PT Hostnet Data Global
 IP-ASN,147106 // PT Global Erasiber Teknologi
-IP-ASN,147089 // PT Intergate Cahaya Media
 IP-ASN,147087 // PT Jaringan Internet Banten
 IP-ASN,142401 // PT Inter Koneksi Media
 IP-ASN,142381 // PT Media Access Telematika
-IP-ASN,142375 // PT Hayat Teknologi Informatika
 IP-ASN,142352 // PT. PRATAMA HASTA UTAMA SOLUSINDO
 IP-ASN,142331 // PT Boombas Carlo Medianet
 IP-ASN,142319 // PT Telemedia Komunikasi Pratama
 IP-ASN,142308 // PT Whiz Digital Berjaya
 IP-ASN,141664 // PT Jaringan Inti Exadata
 IP-ASN,141642 // PT Ring Media Nusantara
-IP-ASN,141123 // PT Puskomedia Indonesia Kreatif
 IP-ASN,141082 // PT Trika Global Media
 IP-ASN,141071 // PT Jembatan Data Pangrango
 IP-ASN,140476 // PT Ardi Jaya Solusindo
 IP-ASN,139977 // PT PRISMA MEDIA NUSANTARA
 IP-ASN,139958 // PT Fakta Jabbar Industri
+IP-ASN,139951 // PT Alfatih Indo Teknologi
 IP-ASN,139460 // PT Maxindo Mitra Solusi
 IP-ASN,138871 // PT. Trans Indonesia Superkoridor
 IP-ASN,138860 // PT. JAYA LINTAS INDONESIA
@@ -272,6 +272,7 @@ IP-ASN,136072 // PT Klik Media Netindo
 IP-ASN,136055 // PT Queen Network Nusantara
 IP-ASN,134630 // PT Palapa Global Nusantara
 IP-ASN,133354 // PT Anugerah Karunia Perkasa Abadi
+IP-ASN,131758 // PT. Bali Ning
 IP-ASN,9875 // PT. Pasifik Satelit Nusantara
 IP-ASN,9251 // PT INTERLINK TECHNOLOGY
 IP-ASN,63508 // PT DINAMIKA MEDIAKOM
@@ -295,7 +296,9 @@ IP-ASN,24212 // PT. JASNITA TELEKOMINDO
 IP-ASN,24205 // PT. Bank Permata Tbk.
 IP-ASN,23756 // PADINET - Padi Internet
 IP-ASN,211407 // PT Perwira Media Solusi
+IP-ASN,152825 // PT Teradata Bintang Selaras
 IP-ASN,152082 // PT Infonusa Teknologi Telekomunikasi Nusantara
+IP-ASN,151995 // PT Wifipedia Sinergi Telematika
 IP-ASN,151567 // PT Tunas Media Data
 IP-ASN,150552 // PT Link Data Sumber Barokah
 IP-ASN,150482 // PT Gapura Era Digital
@@ -309,6 +312,7 @@ IP-ASN,149322 // PT Royal Assetindo
 IP-ASN,147133 // PT Jafati Mitra Solusindo
 IP-ASN,147097 // PT Jangkau Lintas Nusantara
 IP-ASN,147072 // PT Bank BTPN Syariah Tbk
+IP-ASN,142389 // IKI INDONESIA
 IP-ASN,142354 // PT Superspace Teknologi Indonesia
 IP-ASN,142315 // TORSADA
 IP-ASN,141966 // PT Instanet Media Nusantara
@@ -327,7 +331,6 @@ IP-ASN,140482 // IdeaNet
 IP-ASN,140481 // PT Tonggak Teknologi Netikom
 IP-ASN,140475 // PT Citra Celebas Multimedia
 IP-ASN,140444 // Universitas Binawan
-IP-ASN,140442 // PT Nusantara Teknologi Semesta
 IP-ASN,140031 // PT Mandala Lintas Nusa
 IP-ASN,139997 // PT Wortel
 IP-ASN,139989 // CV Atha Media Prima
@@ -361,6 +364,7 @@ IP-ASN,63515 // Indonesia Network Information Center
 IP-ASN,58816 // PT Garena Indonesia
 IP-ASN,56234 // PT Naraya Telematika
 IP-ASN,55697 // Universitas Sumatera Utara
+IP-ASN,55688 // PT. Beon Intermedia
 IP-ASN,55652 // Sumidhaz Permata Bunda, PT
 IP-ASN,46049 // Universitas Diponegoro
 IP-ASN,46047 // Politeknik Negeri Sriwijaya
@@ -369,9 +373,9 @@ IP-ASN,45710 // Yudhawira Khatulistiwa, PT
 IP-ASN,45658 // SCTV Tower - Senayan City
 IP-ASN,45293 // Universitas Terbuka
 IP-ASN,38788 // PT Indonesian Cloud
+IP-ASN,38763 // PT. Cyber Bintan
 IP-ASN,38522 // Telindo Nusantara, PT
 IP-ASN,38516 // Infokom Elektrindo, PT.
-IP-ASN,38500 // PT. Cross Network Indonesia
 IP-ASN,38211 // PT. Mandiri Citra Makmur
 IP-ASN,38147 // PT. Inova Duapuluh Duapuluh
 IP-ASN,38146 // DIGITAL WIRELESS INDONESIA PT.
@@ -387,11 +391,9 @@ IP-ASN,23666 // PT Sistelindo Mitralintas
 IP-ASN,17826 // Jl. Raya Pasar Minggu no 99D
 IP-ASN,17671 // JETCOMS-ID
 IP-ASN,17440 // PT Sinar Alam Abadi
-IP-ASN,152825 // PT Teradata Bintang Selaras
 IP-ASN,152802 // PT Sarana Digital Network
 IP-ASN,152411 // PT Ismaya Djati Nuswantara
 IP-ASN,152001 // PT Komunikasi Profesional Indonesia
-IP-ASN,151995 // PT Wifipedia Sinergi Telematika
 IP-ASN,151600 // PT Inti Data Guna
 IP-ASN,151590 // PT Pandawa Global Telematika
 IP-ASN,151549 // PT Sarana Kawan Setia
@@ -411,9 +413,7 @@ IP-ASN,149688 // PT Satelit Nusantara Tiga
 IP-ASN,149400 // PT Cyber Akses Indonesia
 IP-ASN,147164 // PT Nalendra Gigantara Media
 IP-ASN,147120 // PT Myarsyila Indonesia Interkoneksi
-IP-ASN,142389 // IKI INDONESIA
 IP-ASN,142366 // PT Relabs Net Daya Cipta
-IP-ASN,142362 // PT Sukma Sejati Media
 IP-ASN,142339 // PT Kangen Network Solusindo
 IP-ASN,142332 // Telnet Indonesia
 IP-ASN,142307 // PT CYB Media Group
@@ -435,14 +435,12 @@ IP-ASN,141076 // PT. Arthamas Cipta
 IP-ASN,141064 // PT Network Lintas Fiberindo
 IP-ASN,141049 // PT Profesional Internet Indonesia
 IP-ASN,140479 // PT Inditech Global Network
-IP-ASN,140018 // PT. CYBER TEKNOLOGI PUTRAWAN
+IP-ASN,140442 // PT Nusantara Teknologi Semesta
 IP-ASN,140007 // PT. DANKOM MITRA ABADI
 IP-ASN,139993 // PT. FORIT ASTA SOLUSINDO
 IP-ASN,139447 // PT Transportasi Jakarta
 IP-ASN,139409 // PT JERNIH MULTI KOMUNIKASI
-IP-ASN,139378 // PT. NEX Solusi Teknologi
 IP-ASN,138890 // PT Acehlink Media
-IP-ASN,138843 // PT GLOBAL LINTAS SOLUSI
 IP-ASN,138810 // PT Global Media Pratama Solusindo
 IP-ASN,138134 // PT Tunas Link Indonesia
 IP-ASN,138131 // CV. NATANETWORK SOLUTION
@@ -460,8 +458,8 @@ IP-ASN,135480 // PT. Arjuna Global Teknologi Indonesia
 IP-ASN,135476 // PT. Bank Tabungan Pensiunan Nasional Tbk
 IP-ASN,134658 // PT JULIA MULTIMEDIA NUSANTARA
 IP-ASN,134633 // Direktorat Jenderal Administrasi Hukum Umum
-IP-ASN,134612 // PT Atria Teknologi Indonesia
 IP-ASN,133352 // PT. Berdikari Prima Mandiri
+IP-ASN,133337 // PT Menara Sinar Semesta
 IP-ASN,132649 // PT Adau Putra Network
 IP-ASN,131781 // Universitas Islam Negeri Maulana Malik Ibrahin (UIN Maliki)
 IP-ASN,10208 // PT. Millenium Internetindo
@@ -482,7 +480,6 @@ IP-ASN,58385 // PT. Bank Syariah Mandiri
 IP-ASN,58381 // Wow Internet Indonesia
 IP-ASN,56252 // PT. Kreatif Pasific
 IP-ASN,55699 // PT. Cemerlang Multimedia
-IP-ASN,55688 // PT. Beon Intermedia
 IP-ASN,4622 // Indonesia Network Information Center
 IP-ASN,46061 // PT. Adi Inti Mandiri
 IP-ASN,46058 // PT. Triwahana Gemasakti
@@ -507,10 +504,11 @@ IP-ASN,38896 // PT. Centra Global Investama
 IP-ASN,38783 // PT. Simaya Jejaring Mandiri
 IP-ASN,38771 // PT Cyberplus Media Pratama
 IP-ASN,38770 // PT. Tangara Mitrakom
-IP-ASN,38763 // PT. Cyber Bintan
 IP-ASN,38755 // Biro Statistics
+IP-ASN,38527 // JAWA POS NATIONAL NETWORK MEDIALINK, PT
 IP-ASN,38510 // KEMENTERIAN PERTANIAN REPUBLIK INDONESIA
 IP-ASN,38505 // PT Graha Multimedia Nusantara
+IP-ASN,38500 // PT. Cross Network Indonesia
 IP-ASN,38157 // Tentara Nasional Indonesia Angkatan Udara (TNI-AU)
 IP-ASN,38156 // PT. Union Routelink Communication
 IP-ASN,38144 // PT Jalawave Cakrawala
@@ -531,6 +529,7 @@ IP-ASN,151998 // PT Halim Mitradana Internasional
 IP-ASN,151992 // PT Jet Cyber Network Nusantara
 IP-ASN,151582 // PT Dream Network Solusindo
 IP-ASN,151576 // PT Mahawira Nusantara Grup
+IP-ASN,151575 // PT Jelajah Kreasi Informatika
 IP-ASN,151552 // PT Threego Technology Indonesia
 IP-ASN,151531 // PT Data Telematika Indonesia
 IP-ASN,151522 // PT. LINTAS DATA TRANS
@@ -586,8 +585,8 @@ IP-ASN,142400 // PT Inovasi Digital Telekomunikasi
 IP-ASN,142393 // PT Media Solusi Sukses
 IP-ASN,142387 // PT Integrasi Jaringan Ekosistem
 IP-ASN,142385 // PT Berkat Internet Perkasa
-IP-ASN,142369 // PT Mega Data Akses
 IP-ASN,142368 // PT Global Data Akses Persada
+IP-ASN,142362 // PT Sukma Sejati Media
 IP-ASN,142348 // Universitas Pakuan
 IP-ASN,142342 // PT Media Akses Data
 IP-ASN,142341 // PT Alfa Omega Interkoneksi
@@ -622,6 +621,7 @@ IP-ASN,140413 // PT. GAYUH MEDIA INFORMATIKA
 IP-ASN,140404 // PT TERABYTE INDONESIA
 IP-ASN,140403 // PT. Graha Fatta
 IP-ASN,140390 // PT BUROQ SARANA INFORMATIKA
+IP-ASN,140018 // PT. CYBER TEKNOLOGI PUTRAWAN
 IP-ASN,140016 // PT Trik Media Data
 IP-ASN,139984 // PT Indomedia Solusi net
 IP-ASN,139963 // PT.MURNI MAKMUR ABADI
@@ -632,6 +632,8 @@ IP-ASN,139417 // PT Iweka Digital Solution
 IP-ASN,139369 // PT. UTARA NUSA MEDIA
 IP-ASN,139365 // PT PATRIA LINTAS JAYA
 IP-ASN,138873 // PT GREEN NET INDONESIA
+IP-ASN,138862 // PT. DIGITAL NETWORK SETIAWAN
+IP-ASN,138843 // PT GLOBAL LINTAS SOLUSI
 IP-ASN,138842 // PT Internetwork Komunikasi Indonesia
 IP-ASN,138824 // PT. Gemilang Jaya Elektrindo
 IP-ASN,138804 // PT Speed Network Indonesia
@@ -671,12 +673,12 @@ IP-ASN,135464 // Winet Media Persada
 IP-ASN,135457 // BADAN SIBER DAN SANDI NEGARA (BSSN)
 IP-ASN,135447 // PT. Bank Mega Tbk
 IP-ASN,134645 // PT Midtrans
+IP-ASN,134612 // PT Atria Teknologi Indonesia
 IP-ASN,133843 // PT Bank Rakyat Indonesia
 IP-ASN,133799 // PT. GOMEDS NETWORK
 IP-ASN,133797 // PT Rekajasa Akses
 IP-ASN,133361 // Universitas Katolik Parahyangan
 IP-ASN,133360 // PT Awinet Global Mandiri
-IP-ASN,133337 // PT Menara Sinar Semesta
 IP-ASN,133166 // PT Pertamina (Persero)
 IP-ASN,132676 // Universitas Sriwijaya
 IP-ASN,132667 // Universitas Jambi
@@ -748,7 +750,6 @@ IP-ASN,38765 // Departemen Energi dan Sumber Daya Mineral
 IP-ASN,38764 // MARKAS BESAR KEPOLISIAN REPUBLIK INDONESIA
 IP-ASN,38759 // TRANSMEDIA INDONESIA, PT
 IP-ASN,38567 // PT. Rekayasa Industri
-IP-ASN,38527 // JAWA POS NATIONAL NETWORK MEDIALINK, PT
 IP-ASN,38523 // PT. SRIWIJAYA INTERNET SERVICES
 IP-ASN,38171 // PT Bank Dananamon Indonesia Tbk
 IP-ASN,38145 // PT. Panca Dewata Utama
@@ -761,8 +762,10 @@ IP-ASN,23696 // PT Asia Utama.
 IP-ASN,200240 // EKA SAPUTRA
 IP-ASN,18004 // PT WIRELESS INDONESIA ( WIN )
 IP-ASN,17910 // PT. Tigatra Infokom
+IP-ASN,17769 // PT Indopratama Teleglobal (ISP)Wisma BSG Floor 6
 IP-ASN,17553 // Bogor Agricultural University
 IP-ASN,153073 // PT KANAL TELU MULTITEKNOLOGI
+IP-ASN,152801 // PT Bintang Networks Solusindo
 IP-ASN,152761 // PT AJI RAFASYA ROSO ANTENG  BERKAH
 IP-ASN,152749 // PT Win Artha Mandiri
 IP-ASN,152442 // PT ERKA JARINGAN UTAMA
@@ -774,7 +777,6 @@ IP-ASN,152394 // PT Arta Teletama Teknologi
 IP-ASN,152390 // PT Intercloud Digital Inovasi
 IP-ASN,152377 // PT Trimitra Aditama Koneksindo
 IP-ASN,152373 // PT Anugerah Media Data Nusantara
-IP-ASN,152368 // PT Perwira Pedjoeang Nusantara
 IP-ASN,152073 // PT Media Balai Nusa
 IP-ASN,152027 // Bconn
 IP-ASN,152026 // PT Anten Sarana Teknologi
@@ -782,7 +784,6 @@ IP-ASN,152005 // PT Soultan Network Indonesia
 IP-ASN,152004 // PT Tujuh Fondasi Teknologi
 IP-ASN,151583 // PT Satelit Global Media
 IP-ASN,151579 // PT Multimedia Data Sentra
-IP-ASN,151575 // PT Jelajah Kreasi Informatika
 IP-ASN,151572 // PT Evolution Karya Lintas Data
 IP-ASN,151546 // PT Asri Global Investama
 IP-ASN,151544 // PDWNet
@@ -792,7 +793,6 @@ IP-ASN,151538 // PT Flashnet Inovasi Teknologi
 IP-ASN,151533 // PT. Sarana Optima Berdikari
 IP-ASN,151521 // PT. EXABIT GROUP NETWORK
 IP-ASN,151520 // PT Jaringan Internet Tayu
-IP-ASN,151507 // PT Agung Barokah Network
 IP-ASN,151004 // PT Jaringan Putra Nusantara
 IP-ASN,150989 // PT Media Akses Telematika
 IP-ASN,150988 // PT Nusa Surya Ciptadana
@@ -810,6 +810,7 @@ IP-ASN,150931 // PT Denta Sejahtera Group
 IP-ASN,150919 // PT Trinity Media Indonesia
 IP-ASN,150557 // PT HASIBUAN TELEKOMUNIKASI INDONESIA
 IP-ASN,150555 // PT Binerkahan Digital Telco
+IP-ASN,150549 // PT JKB Telematika Indonesia
 IP-ASN,150541 // PT Oren Abadi Sakti
 IP-ASN,150530 // PT Mars Data Telekomunikasi
 IP-ASN,150526 // PT Giandra Saka Media
@@ -831,6 +832,7 @@ IP-ASN,150257 // PT Telindo Flash Mediatama
 IP-ASN,150230 // PT. Jember Teknologi Solusi
 IP-ASN,150228 // PT Argiz Mitra Technology
 IP-ASN,150226 // PT Elite Teknologi Akademi
+IP-ASN,150220 // ID-IX
 IP-ASN,150218 // PT Wijaya Mandiri Network
 IP-ASN,150215 // PT Era Bangun Indonesia
 IP-ASN,150204 // PT Fastlink Koneksi Indonesia
@@ -844,6 +846,7 @@ IP-ASN,149938 // PT Atha Internet Nusantara
 IP-ASN,149931 // PT Salib Kasih Internet
 IP-ASN,149917 // PT. SILOKA INTEGRASI TEKNOLOGI
 IP-ASN,149909 // PT Panjalu Sarana Data Indonesia
+IP-ASN,149897 // PT Amanusa Telemedia Mahardika
 IP-ASN,149888 // PT Berkah Media Kusuma Vision
 IP-ASN,149754 // PT Global Citra Teknologi
 IP-ASN,149752 // PT. Nexa Media Pratama
@@ -890,6 +893,7 @@ IP-ASN,142386 // PT JARINGAN LINTAS ARTHA
 IP-ASN,142384 // Dinas Komunikasi Dan Informatika Kabupaten Jember
 IP-ASN,142383 // PT Vaiotech Lintas Nusantara
 IP-ASN,142374 // PT Solusi Integra Datakom
+IP-ASN,142369 // PT Mega Data Akses
 IP-ASN,142364 // PT Subnet Data Nusantara
 IP-ASN,142356 // PT Aderani Multi Akses
 IP-ASN,142350 // PT Skala Jaringan Indonesia
@@ -906,13 +910,11 @@ IP-ASN,141920 // PT Andal Berjaya Infomedia
 IP-ASN,141906 // PT KB Finansia Multi Finance
 IP-ASN,141903 // PT Natha Buana Indonesia
 IP-ASN,141897 // PT Ekagrata Data Gemilang
-IP-ASN,141896 // PT Delta Surya Solusitama
 IP-ASN,141891 // PT Lima Satu Tiga Global Tel-Access
 IP-ASN,141887 // PT Terra Sigma Solusi
 IP-ASN,141675 // PT Madina Solusi Indonesia
 IP-ASN,141674 // PT Data Arta Sedaya
 IP-ASN,141667 // PT Amboro Integrasi Teknologi Inovasi
-IP-ASN,141662 // PT Neo Fiber Teknologi
 IP-ASN,141659 // Badan Nasional Penanggulangan Bencana
 IP-ASN,141637 // PT Panca Budi Niaga
 IP-ASN,141636 // PT Mega Data Perkasa
@@ -952,6 +954,7 @@ IP-ASN,139995 // PT. Akashia Thuba Jaya
 IP-ASN,139988 // PT. GARUDA PRIMA INTERNETINDO
 IP-ASN,139978 // PT Jaringan Rtrwnet Nusantara
 IP-ASN,139946 // PT. Teknologi Bumi Nusantara
+IP-ASN,139457 // PT Semut Data Indonesia
 IP-ASN,139442 // KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA
 IP-ASN,139435 // PT SWADAYA TEKNO SOLUSI
 IP-ASN,139421 // PT Dharma Sarana Solusindo
@@ -964,7 +967,6 @@ IP-ASN,139370 // PT. Panji Perkasa Indonesia
 IP-ASN,139364 // Pemerintah Kabupaten Gunungkidul
 IP-ASN,138893 // PT PRIMA MULTI TERMINAL
 IP-ASN,138875 // PT Inetindo Terestrial Solusi
-IP-ASN,138862 // PT. DIGITAL NETWORK SETIAWAN
 IP-ASN,138838 // PT NET Super Cepat
 IP-ASN,138837 // PT. TRI DATU TELEKOMUNIKASI
 IP-ASN,138828 // PT TELIO INTI NUSA
@@ -1167,7 +1169,6 @@ IP-ASN,18355 // PT. Dongsuh Securities
 IP-ASN,18153 // PT Multidata Rancana Prima
 IP-ASN,18112 // PT. Sejuta Jaring Global
 IP-ASN,18056 // Pt Mithaharum Abadi
-IP-ASN,17769 // PT Indopratama Teleglobal (ISP)Wisma BSG Floor 6
 IP-ASN,17658 // PrimaNet - PT. Khasanah Timur Indonesia
 IP-ASN,153317 // DACEN.ID
 IP-ASN,153083 // PT Awan Tiga Bintang
@@ -1180,7 +1181,6 @@ IP-ASN,152820 // PT Kaltim Net Nusantara
 IP-ASN,152818 // PT Marta Dwi Manunggal
 IP-ASN,152814 // CV Mahardika Telematika
 IP-ASN,152808 // PT Jamkrida Jabar
-IP-ASN,152801 // PT Bintang Networks Solusindo
 IP-ASN,152797 // PT Global Media Integra
 IP-ASN,152796 // PT Satu Lima Indonesia
 IP-ASN,152794 // PT Net Patmedia Krama
@@ -1207,6 +1207,7 @@ IP-ASN,152391 // PT Sheep Network Teknologi
 IP-ASN,152384 // PT Digitama Network Indonesia
 IP-ASN,152380 // PT Jeff Network Nusantara
 IP-ASN,152376 // PT. INDOTEK SOLUTION NETWORK
+IP-ASN,152368 // PT Perwira Pedjoeang Nusantara
 IP-ASN,152367 // PT Box Net Media
 IP-ASN,152363 // PT Delapan Broadband Intermedia
 IP-ASN,152350 // Universitas Pertahanan Republik Indonesia
@@ -1252,6 +1253,7 @@ IP-ASN,151516 // PT Taffeta Fora Sistem
 IP-ASN,151512 // PT Jenius Lintas Nusantara
 IP-ASN,151511 // PT Hulwa Tjaraka Teknologi
 IP-ASN,151508 // PT Terabyte Network Indonesia
+IP-ASN,151507 // PT Agung Barokah Network
 IP-ASN,151502 // Dinas Komunikasi dan Informatika Kabupaten Kotawaringin Timur
 IP-ASN,151012 // PT Bangun Nusa Network
 IP-ASN,151011 // Dinas Komunikasi, Informatika, Statistik dan Persandian Kabupaten Kutai Timur
@@ -1267,6 +1269,7 @@ IP-ASN,150974 // Dinas Komunikasi dan Informatika Kabupaten Tapin
 IP-ASN,150964 // PT Level Indodata Teknologi
 IP-ASN,150961 // PT. Pandeglang Akses Semesta
 IP-ASN,150959 // PT SSR Digital Informatika
+IP-ASN,150955 // PT Mitra Integra Telekom
 IP-ASN,150945 // PT Harrisma Data Citta
 IP-ASN,150944 // PT Mediatama Internusa Persada
 IP-ASN,150941 // PT Duta Trans Nusantara Network
@@ -1275,13 +1278,11 @@ IP-ASN,150937 // PT Neutron Mitra Nusantara
 IP-ASN,150932 // PT Bayu Group Nusantara
 IP-ASN,150927 // PT Lima Cahaya Kotim
 IP-ASN,150920 // PT Dua Empat Tujuh
-IP-ASN,150917 // PT Antar Data Informatika
 IP-ASN,150914 // PT Ned Link Telekomunikasi
 IP-ASN,150913 // PT Alam Daur Nusantara
 IP-ASN,150556 // CV KLIK FARM INDONESIA
 IP-ASN,150554 // PT Jaringan Tiang Indonesia Group
 IP-ASN,150553 // PT Nusa Jaya Prasetyo
-IP-ASN,150549 // PT JKB Telematika Indonesia
 IP-ASN,150534 // PT Asuransi Etiqa Internasional Indonesia
 IP-ASN,150533 // Universitas Muhammadiyah Makassar
 IP-ASN,150529 // PT Sukha Karya Teknologi
@@ -1303,7 +1304,6 @@ IP-ASN,150237 // PT Akses Digital Bersama
 IP-ASN,150235 // PT Insolikh Jaringan Multimedia
 IP-ASN,150222 // PT Paket Switch Bersama
 IP-ASN,150221 // PT Smartlink Multimedia Network
-IP-ASN,150220 // ID-IX
 IP-ASN,150219 // PT Inertia Utama
 IP-ASN,150200 // PT Sarana Working Akses Indonesia
 IP-ASN,150199 // PT Jaringan Nusantara Samota
@@ -1332,7 +1332,6 @@ IP-ASN,149906 // PT Wahana Data Solusindo
 IP-ASN,149903 // PT Pandawa Lintas Media
 IP-ASN,149901 // PT Garuda Super Link
 IP-ASN,149898 // PT Retbizz Exabit Indonesia
-IP-ASN,149897 // PT Amanusa Telemedia Mahardika
 IP-ASN,149886 // PPPK Petra
 IP-ASN,149881 // PT. WIKAPLUS GLOBAL NUSANTARA
 IP-ASN,149753 // PT Global Sarana Mediakom
@@ -1406,8 +1405,8 @@ IP-ASN,147082 // PT Net Sun Power
 IP-ASN,147081 // PT Pusat Net Media
 IP-ASN,142399 // PT Zona Kolektif Indonesia
 IP-ASN,142396 // PT Pelayanan Listrik Nasional (PLN) Batam
+IP-ASN,142390 // PT Abs Multimedia Indonesia
 IP-ASN,142388 // PT Maybank Kim Eng Sekuritas
-IP-ASN,142382 // PT Klinik Digital Indonesia JNHOST
 IP-ASN,142365 // PT Rezky Sukabumi Vision
 IP-ASN,142351 // PT Global Inayah Elektrindo
 IP-ASN,142346 // PT Bumi Manusia Network
@@ -1416,6 +1415,7 @@ IP-ASN,142343 // Dinas Kominfo Kabupaten Rembang
 IP-ASN,142335 // GARNET
 IP-ASN,142327 // PT Internet Prima Nusantara
 IP-ASN,142326 // PT Fahasa Tri Data
+IP-ASN,142320 // Universitas Islam Negeri Sumatera Utara Medan
 IP-ASN,142316 // Dinas Komunikasi dan Informatika Pemerintah Kabupaten Jembrana
 IP-ASN,142314 // Dinas Komunikasi Informatika Persandian dan Statistik Kabuapten Bueleleng
 IP-ASN,141986 // PT Cahaya Sinergi Semesta
@@ -1434,9 +1434,12 @@ IP-ASN,141910 // PT Fivendro Mandiri Indonesia
 IP-ASN,141907 // PT Metrosolusi Teknologi Indonesia
 IP-ASN,141902 // PT Jawa Provider Telematika
 IP-ASN,141901 // PT Solusi Jasa Teknologi
+IP-ASN,141896 // PT Delta Surya Solusitama
+IP-ASN,141892 // CV Andhika Pratama Sanggoro
 IP-ASN,141672 // PT Nuansa Online Mitrakom
 IP-ASN,141666 // PT Industri Kereta Api (INKA)
 IP-ASN,141665 // PT Cahaya Artha Daya
+IP-ASN,141662 // PT Neo Fiber Teknologi
 IP-ASN,141657 // Dinas Komunikasi Informatika dan Statistika Kabupaten Brebes
 IP-ASN,141656 // Pemerintah Daerah Kabupaten Karo
 IP-ASN,141655 // Pemerintah Kabupaten Ogan Ilir
@@ -1512,7 +1515,6 @@ IP-ASN,139935 // RSU DR. SOETOMO
 IP-ASN,139934 // PT Skynet Network Bersama
 IP-ASN,139459 // Dinas Komunikasi dan Informatika Pemerintah Kota Probolinggo
 IP-ASN,139458 // PT Matahari Putra Prima
-IP-ASN,139457 // PT Semut Data Indonesia
 IP-ASN,139455 // PT Mikro Mulia Agung Sentosa
 IP-ASN,139453 // PT FASTRATA BUANA
 IP-ASN,139451 // PT SARANA INTI MAKMUR BERSAMA
@@ -1556,6 +1558,7 @@ IP-ASN,138806 // Dinas Komunikasi dan Informatika Kabupaten Kulon Progo
 IP-ASN,138805 // Dinas Komunikasi dan Informatika Kota Malang
 IP-ASN,138598 // PT Nevigate Telekomunikasi Indonesia
 IP-ASN,138142 // Institut Informatika & Bisnis Darmajaya
+IP-ASN,138141 // PT. Waluya Istana Nusantara
 IP-ASN,138135 // Pemerintah Kabupaten Tanah Bumbu
 IP-ASN,138127 // PEMERINTAH KABUPATEN MADIUN
 IP-ASN,138126 // PT. NEWTON CIPTA INFORMATIKA
@@ -1882,6 +1885,7 @@ IP-ASN,152421 // PT Fiberlink Technology Indonesia
 IP-ASN,152420 // PT Bintang Timur Snet
 IP-ASN,152418 // PT Lingga Telekomunikasi Nusantara
 IP-ASN,152417 // PT Arthaprima Mandiri Persada
+IP-ASN,152416 // PT Barokah Sistem Telematika
 IP-ASN,152410 // PT Asterix Inovasi Teknologi
 IP-ASN,152406 // PT Griya Akses Teknologi
 IP-ASN,152403 // PT Central Mediatama Network
@@ -1921,7 +1925,6 @@ IP-ASN,152081 // PT Zinet Media Nusantara
 IP-ASN,152079 // PT Meta Telekomunikasi Asia
 IP-ASN,152076 // Badan Keamanan Laut RI
 IP-ASN,152075 // Universitas Singaperbangsa Karawang
-IP-ASN,152074 // Dinas Komunikasi Informatika Statistik dan Persandian Kabupaten Paser
 IP-ASN,152072 // Pemerintah Kabupaten Mamuju Tengah
 IP-ASN,152071 // PT Jalur Net Infotek
 IP-ASN,152069 // PT Nusantara Star Connect
@@ -2010,7 +2013,6 @@ IP-ASN,150965 // PT BAS Network Indonesia
 IP-ASN,150962 // PT. Internet Rakyat Solusi Indonesia
 IP-ASN,150958 // PT Fiber Data Nusantara
 IP-ASN,150956 // PT Pronet Data Solusi
-IP-ASN,150955 // PT Mitra Integra Telekom
 IP-ASN,150953 // PT Satelit Nusantara Lima
 IP-ASN,150950 // Dinas Komunikasi, Informatika, Statistik dan Persandian Kabupaten Nunukan
 IP-ASN,150943 // Dinas Komunikasi, Informatika, Statistik dan Persandian Kota Dumai
@@ -2018,6 +2020,7 @@ IP-ASN,150942 // LAMBDA
 IP-ASN,150934 // PT Hard Work Media Data Trans
 IP-ASN,150930 // PT Kolaborasi Digital Bersama
 IP-ASN,150926 // PT Gerbang Sinergi Prima
+IP-ASN,150917 // PT Antar Data Informatika
 IP-ASN,150550 // PT Telekomunikasi Network Nusantara
 IP-ASN,150546 // Dinas Komunikasi dan Informatika Kabupaten Kediri
 IP-ASN,150544 // PT Global Visi Vindici
@@ -2145,7 +2148,7 @@ IP-ASN,147077 // Pemerintah Kabupaten Kubu Raya
 IP-ASN,142395 // PT Global Internet Indonesia
 IP-ASN,142392 // PT Netlink Lintas Data
 IP-ASN,142391 // PT Anugerah Panca Laksana
-IP-ASN,142390 // PT Abs Multimedia Indonesia
+IP-ASN,142382 // PT Klinik Digital Indonesia JNHOST
 IP-ASN,142380 // Dinas Persandian Komunikasi dan Informatika Kabupaten Manokwari
 IP-ASN,142379 // PT. INDONESIA SUPER CORRIDOR - DATA CENTER
 IP-ASN,142367 // Institut Teknologi Del
@@ -2161,7 +2164,6 @@ IP-ASN,142330 // Dinas Komunikasi dan Informatika Kabupaten Lombok Tengah
 IP-ASN,142329 // Universitas Palangkaraya
 IP-ASN,142324 // PT Nervelink Utama Media
 IP-ASN,142321 // PT Lintang Samoan Network
-IP-ASN,142320 // Universitas Islam Negeri Sumatera Utara Medan
 IP-ASN,142318 // PT Lancar Berkah Barokah
 IP-ASN,142313 // PT Buana Eksplorasi Solusi
 IP-ASN,142312 // PT Wget Solusindo Pratama
@@ -2190,7 +2192,6 @@ IP-ASN,141913 // PT Global Media Telekomunikasi Network
 IP-ASN,141912 // Dinas Komunikasi dan Informatika Kabupaten Bondowoso
 IP-ASN,141911 // Dinas Komunikasi dan Informatika Kabupaten Bangkalan
 IP-ASN,141893 // PT Kawanua Internet Indonesia
-IP-ASN,141892 // CV Andhika Pratama Sanggoro
 IP-ASN,141669 // PT Citra Victoria Raya
 IP-ASN,141663 // PT Microcel Pole Indonesia
 IP-ASN,141660 // PT Wahyu Akses Koneksi Riau
@@ -2486,6 +2487,7 @@ IP-ASN,215221 // Mega Pranata
 IP-ASN,215172 // Syahrulloh
 IP-ASN,215171 // PT Detroit Network Indonesia
 IP-ASN,215084 // binsar yunus herdianton sirait
+IP-ASN,214641 // Dicky Maulana Saputra
 IP-ASN,214446 // Laurensius Jeffrey Chandra
 IP-ASN,213293 // Arif Setiawan
 IP-ASN,213086 // Putu Paundrayana Waringin
