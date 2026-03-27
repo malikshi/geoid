@@ -35,11 +35,15 @@ def build_lists():
                 except ValueError:
                     pass
 
-    # Sort networks
-    def sort_key(network):
-        return (network.version == 6, network)
-        
-    sorted_networks = sorted(unique_networks, key=sort_key)
+    # Collapse overlapping and adjacent subnets
+    networks_v4 = [n for n in unique_networks if n.version == 4]
+    networks_v6 = [n for n in unique_networks if n.version == 6]
+    
+    # ipaddress.collapse_addresses merges overlapping ranges (e.g. 1.0.0.0/24 into 1.0.0.0/16)
+    collapsed_v4 = list(ipaddress.collapse_addresses(networks_v4))
+    collapsed_v6 = list(ipaddress.collapse_addresses(networks_v6))
+    
+    sorted_networks = collapsed_v4 + collapsed_v6
     
     # Generate formats
     
