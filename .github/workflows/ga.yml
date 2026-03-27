@@ -2,6 +2,8 @@ name: Update ASN and IP List
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: "10 04 * * FRI"
@@ -10,23 +12,61 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.8
+          python-version: "3.10"
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests lxml
-      - name: Run Python
-        run: |
-          python getListASN.py
-          python getPrefix.py
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update IP List
-          file_pattern: ./*.list
-          skip_dirty_check: false
+          
+      - name: Fetch Raw Data
+        env:
+          IPINFO_TOKEN: ${{ secrets.IPINFO_TOKEN }}
+        run: python fetch.py
 
+      - name: Push Raw Data to Data Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: data
+          publish_dir: ./data_out
+          force_orphan: false
+          commit_message: "Update raw data"
+
+      - name: Setup Sing-box
+        run: |
+          echo "Installing sing-box..."
+          curl -fsSL https://get.sing-box.app/install.sh | sudo bash || echo "Failed to install sing-box"
+          
+          if command -v sing-box &> /dev/null; then
+            sing-box version
+          else
+            echo "Attempting to download latest sing-box pre-compiled binary..."
+            VERSION=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+            curl -LO "https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/sing-box-${VERSION}-linux-amd64.tar.gz"
+            tar -xzf "sing-box-${VERSION}-linux-amd64.tar.gz"
+            sudo mv "sing-box-${VERSION}-linux-amd64/sing-box" /usr/local/bin/
+            sing-box version
+          fi
+
+      - name: Build Release Lists
+        run: |
+          python build.py
+          echo "Compiling sing-box format..."
+          sing-box rule-set compile release_out/indonesia.json -o release_out/indonesia.srs || echo "Failed to compile SRS"
+
+      - name: Push Built Lists to Release Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: release
+          publish_dir: ./release_out
+          force_orphan: false
+          commit_message: "Update release lists"
