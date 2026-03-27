@@ -34,21 +34,42 @@ def fetch_bgp_table():
     print("Fetching bgp table.txt...")
     url = "https://bgp.tools/table.txt"
     headers = {"User-Agent": "Mozilla/5.0"}
-    r = requests.get(url, headers=headers)
-    r.raise_for_status()
-    with open(os.path.join(DATA_DIR, "table.txt"), "wb") as f:
-        f.write(r.content)
-        
-    print("Extracting BGP.Indonesia.list from table.txt...")
-    asns = []
-    with open(os.path.join(DATA_DIR, "ASN.Indonesia.list"), "r") as f:
-        for line in f:
-            asn = line.split(",")[1].split()[0]
-            asns.append(asn)
-            
     table_file = os.path.join(DATA_DIR, "table.txt")
     bgp_out = os.path.join(DATA_DIR, "BGP.Indonesia.list")
     
+    try:
+        r = requests.get(url, headers=headers)
+        r.raise_for_status()
+        with open(table_file, "wb") as f:
+            f.write(r.content)
+    except Exception as e:
+        print(f"Failed to fetch table.txt from bgp.tools: {e}")
+        import shutil
+        old_table = os.path.join("old_data", "table.txt")
+        old_bgp = os.path.join("old_data", "BGP.Indonesia.list")
+        if os.path.exists(old_table):
+            print("Fallback: Using table.txt from data branch...")
+            shutil.copy(old_table, table_file)
+        elif os.path.exists(old_bgp):
+            print("Fallback: Using BGP.Indonesia.list from data branch... skipping table extraction.")
+            shutil.copy(old_bgp, bgp_out)
+            return
+        else:
+            print("No fallback found for BGP table data. Skipping BGP lists.")
+            return
+        
+    print("Extracting BGP.Indonesia.list from table.txt...")
+    asns = []
+    try:
+        with open(os.path.join(DATA_DIR, "ASN.Indonesia.list"), "r") as f:
+            for line in f:
+                parts = line.split(",")
+                if len(parts) > 1:
+                    asn = parts[1].split()[0]
+                    asns.append(asn)
+    except FileNotFoundError:
+        pass
+        
     with open(bgp_out, "w") as outfile:
         # Optimization: use grep to grab all ASNs efficiently
         for asn in asns:
