@@ -65,7 +65,7 @@ def build_lists():
     # 4. Sing-box Rule Set JSON Format
     # Loyalsoldier/geoip format is SRS. We export a json for it to compile:
     rule_set = {
-        "version": 1,
+        "version": 3,
         "rules": [
             {
                 "ip_cidr": [str(net) for net in sorted_networks]
